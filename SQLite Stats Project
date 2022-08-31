@@ -34,5 +34,5 @@ INSERT INTO inventory VALUES (15,'Scarf','large','ligt-blue',16,28);
 SELECT item, price FROM inventory WHERE color='white' ORDER BY price
 
 
-/* aggregating some data - what item do we have less than 10 in stock? */
+/* aggregating some data - what item's do we have $20 or more in stock? */
 SELECT item AS Most_Expensive_Items, price FROM inventory WHERE price >=20; 

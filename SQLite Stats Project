@@ -6,7 +6,7 @@ DESCRIPTION: Database for basic thrift store project. Created to test CRUD and S
 **/
 
 /* create the database */
-CREATE DATABASE thriftshop
+CREATE DATABASE thriftshop;
 
 
 -- now create the table for mens clothing
